@@ -9,6 +9,8 @@ public class Primitives {
         byte myByte3 = 127;
         System.out.println(myByte3);
 
+        // byte range = -128 to +127
+
         // sizes of primitive data values
 
         // boolean => 1 bit => true or false
@@ -19,5 +21,29 @@ public class Primitives {
         // float => 32 bit => floating point value
         // double => 64 bit => floating point value
         // char => 12 bit => Unicode value
+
+        short myShort = (short) (Math.pow(2, 14));
+        System.out.println(myShort);
+
+        short myShort2 = (short) (Math.pow(2, 15));
+        System.out.println(myShort2);
+
+        short myShort3 = 32767;
+        System.out.println(myShort3);
+
+        // max short val
+        // 2 ^ 16 == 65536
+        // 65536 / 2 = 32768
+        // max postiive
+        // max negative = -32768
+
+        short myShort4 = 'A';
+        System.out.println(myShort4);
+
+        char myChar = 32767;
+        System.out.println(myChar);
+
+        char myChar2 = 97;
+        System.out.println(myChar2);
     }
 }
